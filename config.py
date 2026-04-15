@@ -1,5 +1,0 @@
-MAX_ITERATIONS = 5
-FIDELITY_THRESHOLD = 0.95
-
-MODEL_NAME = "microsoft/phi-2"
-DEVICE = "cpu"

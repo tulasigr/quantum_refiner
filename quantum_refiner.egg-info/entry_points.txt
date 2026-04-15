@@ -1,0 +1,2 @@
+[console_scripts]
+quantum-refiner = quantum_refiner.cli.main:cli

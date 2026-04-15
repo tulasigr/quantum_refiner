@@ -1,0 +1,35 @@
+2026-04-13 17:43:34 - quantum_refiner.audit - INFO - OPERATION: crypto_init_simulated | {"kyber": "Kyber1024", "dilithium": "Dilithium3", "timestamp": "2026-04-13T12:13:34.687815"}
+2026-04-13 17:45:12 - quantum_refiner.audit - INFO - OPERATION: crypto_init_simulated | {"kyber": "Kyber1024", "dilithium": "Dilithium3", "timestamp": "2026-04-13T12:15:12.175452"}
+2026-04-13 17:45:12 - quantum_refiner.audit - INFO - OPERATION: kyber_key_generated | {"algorithm": "Kyber1024", "timestamp": "2026-04-13T12:15:12.177786"}
+2026-04-13 17:45:12 - quantum_refiner.audit - INFO - OPERATION: kyber_encapsulate | {"algorithm": "Kyber1024", "ct_size": 1088, "ss_size": 32, "timestamp": "2026-04-13T12:15:12.178914"}
+2026-04-13 17:45:12 - quantum_refiner.audit - INFO - OPERATION: kyber_decapsulate | {"algorithm": "Kyber1024", "timestamp": "2026-04-13T12:15:12.180541"}
+2026-04-13 17:45:12 - quantum_refiner.audit - INFO - OPERATION: dilithium_key_generated | {"algorithm": "Dilithium3", "timestamp": "2026-04-13T12:15:12.182222"}
+2026-04-13 17:45:12 - quantum_refiner.audit - INFO - OPERATION: dilithium_sign | {"algorithm": "Dilithium3", "message_size": 24, "signature_size": 2420, "timestamp": "2026-04-13T12:15:12.182222"}
+2026-04-13 17:45:12 - quantum_refiner.audit - INFO - OPERATION: dilithium_verify_success | {"algorithm": "Dilithium3", "message_size": 24, "timestamp": "2026-04-13T12:15:12.184251"}
+2026-04-13 17:45:12 - quantum_refiner.audit - INFO - OPERATION: aes_encrypt | {"plaintext_size": 25, "ciphertext_size": 25, "nonce_size": 12, "timestamp": "2026-04-13T12:15:12.339958"}
+2026-04-13 17:45:12 - quantum_refiner.audit - INFO - OPERATION: aes_decrypt | {"ciphertext_size": 25, "plaintext_size": 25, "timestamp": "2026-04-13T12:15:12.339958"}
+2026-04-13 17:45:12 - quantum_refiner.audit - INFO - OPERATION: aes_key_derived | {"iterations": 100000, "salt_size": 16, "timestamp": "2026-04-13T12:15:12.435058"}
+2026-04-13 17:47:16 - quantum_refiner.audit - INFO - OPERATION: crypto_init_simulated | {"kyber": "Kyber1024", "dilithium": "Dilithium3", "timestamp": "2026-04-13T12:17:16.672395"}
+2026-04-13 17:47:16 - quantum_refiner.audit - INFO - OPERATION: kyber_key_generated | {"algorithm": "Kyber1024", "timestamp": "2026-04-13T12:17:16.672395"}
+2026-04-13 17:47:16 - quantum_refiner.audit - INFO - OPERATION: dilithium_key_generated | {"algorithm": "Dilithium3", "timestamp": "2026-04-13T12:17:16.672395"}
+2026-04-13 17:47:16 - quantum_refiner.audit - INFO - OPERATION: kyber_encapsulate | {"algorithm": "Kyber1024", "ct_size": 1088, "ss_size": 32, "timestamp": "2026-04-13T12:17:16.672395"}
+2026-04-13 17:47:16 - quantum_refiner.audit - INFO - OPERATION: dilithium_sign | {"algorithm": "Dilithium3", "message_size": 12, "signature_size": 2420, "timestamp": "2026-04-13T12:17:16.672395"}
+2026-04-13 17:47:16 - quantum_refiner.audit - INFO - OPERATION: dilithium_verify_success | {"algorithm": "Dilithium3", "message_size": 12, "timestamp": "2026-04-13T12:17:16.672395"}
+2026-04-13 17:49:54 - quantum_refiner.audit - INFO - OPERATION: crypto_init_simulated | {"kyber": "Kyber1024", "dilithium": "Dilithium3", "timestamp": "2026-04-13T12:19:54.546919"}
+2026-04-13 17:49:54 - quantum_refiner.audit - INFO - OPERATION: kyber_key_generated | {"algorithm": "Kyber1024", "timestamp": "2026-04-13T12:19:54.546919"}
+2026-04-13 17:49:54 - quantum_refiner.audit - INFO - OPERATION: kyber_encapsulate | {"algorithm": "Kyber1024", "ct_size": 1088, "ss_size": 32, "timestamp": "2026-04-13T12:19:54.546919"}
+2026-04-13 17:49:54 - quantum_refiner.audit - INFO - OPERATION: kyber_encapsulate | {"algorithm": "Kyber1024", "ct_size": 1088, "ss_size": 32, "timestamp": "2026-04-13T12:19:54.548937"}
+2026-04-13 17:49:54 - quantum_refiner.audit - INFO - OPERATION: kyber_decapsulate | {"algorithm": "Kyber1024", "timestamp": "2026-04-13T12:19:54.548937"}
+2026-04-13 17:49:54 - quantum_refiner.audit - INFO - OPERATION: kyber_decapsulate | {"algorithm": "Kyber1024", "timestamp": "2026-04-13T12:19:54.548937"}
+2026-04-13 17:50:15 - quantum_refiner.audit - INFO - OPERATION: crypto_init_simulated | {"kyber": "Kyber1024", "dilithium": "Dilithium3", "timestamp": "2026-04-13T12:20:15.178490"}
+2026-04-13 17:50:15 - quantum_refiner.audit - INFO - OPERATION: kyber_key_generated | {"algorithm": "Kyber1024", "timestamp": "2026-04-13T12:20:15.181658"}
+2026-04-13 17:50:15 - quantum_refiner.audit - INFO - OPERATION: kyber_encapsulate | {"algorithm": "Kyber1024", "ct_size": 1088, "ss_size": 32, "timestamp": "2026-04-13T12:20:15.181658"}
+2026-04-13 17:50:15 - quantum_refiner.audit - INFO - OPERATION: aes_key_derived | {"iterations": 100000, "salt_size": 16, "timestamp": "2026-04-13T12:20:15.397300"}
+2026-04-13 17:50:15 - quantum_refiner.audit - INFO - OPERATION: kyber_decapsulate | {"algorithm": "Kyber1024", "timestamp": "2026-04-13T12:20:15.397300"}
+2026-04-13 17:50:15 - quantum_refiner.audit - INFO - OPERATION: aes_key_derived | {"iterations": 100000, "salt_size": 16, "timestamp": "2026-04-13T12:20:15.480485"}
+2026-04-13 17:50:15 - quantum_refiner.audit - INFO - OPERATION: aes_encrypt | {"plaintext_size": 17, "ciphertext_size": 17, "nonce_size": 12, "timestamp": "2026-04-13T12:20:15.495469"}
+2026-04-13 17:50:15 - quantum_refiner.audit - INFO - OPERATION: aes_decrypt | {"ciphertext_size": 17, "plaintext_size": 17, "timestamp": "2026-04-13T12:20:15.495469"}
+2026-04-13 19:54:03 - quantum_refiner.audit - INFO - OPERATION: crypto_init_simulated | {"kyber": "Kyber1024", "dilithium": "Dilithium3", "timestamp": "2026-04-13T14:24:03.295475"}
+2026-04-13 19:56:10 - quantum_refiner.audit - INFO - OPERATION: crypto_init_simulated | {"kyber": "Kyber1024", "dilithium": "Dilithium3", "timestamp": "2026-04-13T14:26:10.166206"}
+2026-04-13 19:57:01 - quantum_refiner.audit - INFO - OPERATION: crypto_init_simulated | {"kyber": "Kyber1024", "dilithium": "Dilithium3", "timestamp": "2026-04-13T14:27:01.847985"}
+2026-04-13 21:12:13 - quantum_refiner.audit - INFO - OPERATION: crypto_init_simulated | {"kyber": "Kyber1024", "dilithium": "Dilithium3", "timestamp": "2026-04-13T15:42:13.735946"}

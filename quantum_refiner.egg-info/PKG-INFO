@@ -1,3 +1,46 @@
+Metadata-Version: 2.4
+Name: quantum-refiner
+Version: 1.0.0
+Summary: Production-ready Post-Quantum Cryptography framework for securing LLM fine-tuning datasets
+Author-email: Quantum Security Team <security@quantum-refiner.io>
+License: MIT
+Keywords: pqc,post-quantum,cryptography,kyber,dilithium,llm,security
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Security :: Cryptography
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: liboqs-python>=0.7.0
+Requires-Dist: cryptography>=41.0.0
+Requires-Dist: pydantic>=2.0.0
+Requires-Dist: pyyaml>=6.0
+Requires-Dist: click>=8.1.0
+Requires-Dist: tomli>=2.0.0; python_version < "3.11"
+Requires-Dist: tqdm>=4.65.0
+Requires-Dist: numpy>=1.24.0
+Provides-Extra: dev
+Requires-Dist: pytest>=7.4.0; extra == "dev"
+Requires-Dist: pytest-cov>=4.1.0; extra == "dev"
+Requires-Dist: hypothesis>=6.80.0; extra == "dev"
+Requires-Dist: black>=23.7.0; extra == "dev"
+Requires-Dist: isort>=5.12.0; extra == "dev"
+Requires-Dist: flake8>=6.0.0; extra == "dev"
+Requires-Dist: mypy>=1.4.0; extra == "dev"
+Provides-Extra: torch
+Requires-Dist: torch>=2.0.0; extra == "torch"
+Requires-Dist: torchvision>=0.15.0; extra == "torch"
+Provides-Extra: ml
+Requires-Dist: torch>=2.0.0; extra == "ml"
+Requires-Dist: torchvision>=0.15.0; extra == "ml"
+Requires-Dist: transformers>=4.30.0; extra == "ml"
+
 # 🔐 Quantum-Refiner: Post-Quantum Cryptography for LLM Dataset Security
 
 **Production-ready framework for securing Large Language Model fine-tuning datasets using NIST-standardized Post-Quantum Cryptography (PQC)**
